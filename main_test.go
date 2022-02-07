@@ -1,6 +1,6 @@
 package main
 import "testing"
-func TestGreeting(t *tesing.T) {
+func TestGreeting(t *testing.T) {
 	want:="Hello"
 	got:=Greeting()
 	if want != got {
