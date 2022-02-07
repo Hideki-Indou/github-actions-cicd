@@ -1,10 +1,10 @@
 package main
-Import "fmt"
+import "fmt"
 
 func Greeting() string {
      return "Hello"
 }
 
 func main() {
-     fmt.println(Greeting())
+     fmt.Println(Greeting())
 }
