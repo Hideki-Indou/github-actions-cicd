@@ -1,5 +1,5 @@
 package main
-import "tesing"
+import "testing"
 func TestGreeting(t *tesing.T) {
 	want:="Hello"
 	got:=Greeting()
